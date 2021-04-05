@@ -162,7 +162,7 @@ header {
 
 .photo-1 {
     @include square(120px, 120px);
-    background-image: url(./images/Bitmap-1.png);
+    background-image: url(./images/Bradley.png);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -187,7 +187,7 @@ header {
 
 .photo-2 {
     @extend .photo-1;
-    background-image: url(./images/Bitmap-2.png);
+    background-image: url(./images/marie.png);
 }
 
 .photo-2::after {
