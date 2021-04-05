@@ -7,7 +7,7 @@ header {
     @include square(100%, 700px);
     max-width: 1440px;
     margin: 0px auto;
-    background-image: url(../images/Header.png);
+    background-image: url(../images/header.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -89,7 +89,7 @@ header {
     justify-content: space-between;
 
     .photo-one {
-        background-image: url(../images/Step1.png);
+        background-image: url(../images/work.png);
         @include square(calc((100 - 2*20px)/3), 400px);
         display: flex;
         flex-direction: column;
@@ -99,12 +99,12 @@ header {
 
     .photo-two {
         @extend .photo-one;
-        background-image: url(../images/Step2.png);
+        background-image: url(../images/car.png);
     }
 
     .photo-three {
         @extend .photo-one;
-        background-image: url(../images/Step3.png);
+        background-image: url(../images/legs.png);
     }
 }
 
@@ -162,7 +162,7 @@ header {
 
 .photo-1 {
     @include square(120px, 120px);
-    background-image: url(../images/Bitmap-1.png);
+    background-image: url(../images/bradley.png);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -175,7 +175,7 @@ header {
     content: "";
     position: absolute;
     @include square(40px, 40px);
-    background-image: url(../images/music2.svg);
+    background-image: url(../images/music.svg);
     background-color: #FF4E50;
     background-repeat: no-repeat;
     background-position: center;
@@ -187,7 +187,7 @@ header {
 
 .photo-2 {
     @extend .photo-1;
-    background-image: url(../images/Bitmap-2.png);
+    background-image: url(../images/marie.png);
 }
 
 .photo-2::after {
@@ -197,7 +197,7 @@ header {
 
 .photo-3 {
     @extend .photo-1;
-    background-image: url(../images/Bitmap-3.png);
+    background-image: url(../images/diana.png);
 }
 
 .photo-3::after {
@@ -207,7 +207,7 @@ header {
 
 .photo-4 {
     @extend .photo-1;
-    background-image: url(../images/Bitmap-4.png);
+    background-image: url(../images/chris.png);
 }
 
 .photo-4::after {
@@ -246,7 +246,7 @@ header {
     grid-column: 1/2;
     grid-row: 1/2;
     @include square(300px, 310px);
-    background-image: url(../images/Object-1.png);
+    background-image: url(../images/sport-midi.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,21 +256,21 @@ header {
     @extend .one;
     grid-column: 3/4;
     grid-row: 1/2;
-    background-image: url(../images/Object-2.png);
+    background-image: url(../images/sea-mini.png);
 }
 
 .three {
     @extend .one;
     grid-column: 5/6;
     grid-row: 1/2;
-    background-image: url(../images/Object.png);
+    background-image: url(../images/extrim-mini.png);
 }
 
 .four {
     @extend .one;
     grid-column: 1/2;
     grid-row: 3/4;
-    background-image: url(../images/Object-4.png);
+    background-image: url(../images/games-mini.png);
 }
 
 .five {
@@ -278,7 +278,7 @@ header {
     grid-column: 3/6;
     grid-row: 3/4;
     width: 620px;
-    background-image: url(../images/Object-5.png);
+    background-image: url(../images/culture-mini.png);
 }
 
 .six {
@@ -286,14 +286,14 @@ header {
     grid-column: 1/4;
     grid-row: 5/6;
     width: 620px;
-    background-image: url(../images/Object-6.png);
+    background-image: url(../images/relax-mini.png);
 }
 
 .seven {
     @extend .one;
     grid-column: 5/6;
     grid-row: 5/6;
-    background-image: url(../images/Object-7.png);
+    background-image: url(../images/mountain-mini.png);
 }
 
 .block-four {
@@ -518,7 +518,7 @@ footer {
         background-position-x: 0px;
     }
     .seven{
-        background-image: url(../images/GamesCopy-2.png);
+        background-image: url(../images/mountain-midi.png);
         background-position-x: 0px;
     }
 
@@ -667,7 +667,7 @@ footer {
         flex-direction: column;
 
         .photo-one {
-            background-image: url(../images/Step1image.png);
+            background-image: url(../images/work-mini.png);
             width: calc((100 - 2*20px)/3);
             height: 240px;
             padding: 0px 30px 0px 20px;
@@ -675,11 +675,11 @@ footer {
         }
 
         .photo-two {
-            background-image: url(../images/Step2image.png);
+            background-image: url(../images/car-mini.png);
         }
 
         .photo-three {
-            background-image: url(../images/Step3image.png);
+            background-image: url(../images/legs-mini.png);
         }
     }
 
@@ -773,13 +773,13 @@ footer {
         width: 300px;
         height: 120px;
         margin-bottom: 10px;
-        background-image: url(../images/Sport.png);
+        background-image: url(../images/sport.png);
         background-position: center;
     }
 
     .two {
 
-        background-image: url(../images/Healath.png);
+        background-image: url(../images/sea.png);
     }
 
     .three {
@@ -787,20 +787,20 @@ footer {
     }
 
     .four {
-        background-image: url(../images/Games.png);
+        background-image: url(../images/games.png);
     }
 
     .five {
-        background-image: url(../images/Culture.png);
+        background-image: url(../images/culture.png);
     }
 
     .six {
 
-        background-image: url(../images/CultureCopy.png);
+        background-image: url(../images/relax.png);
     }
 
     .seven {
-        background-image: url(../images/GamesCopy.png);
+        background-image: url(../images/mountain.png);
     }
 
     .block-four {
@@ -896,7 +896,7 @@ footer {
 
 @media screen and (max-width: 320px) {
     header {
-        background-image: url(../images/Background-2.png);
+        background-image: url(../images/header-mini.png);
 
 
     }
